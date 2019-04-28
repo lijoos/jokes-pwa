@@ -5,6 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Demo
  https://jokespwa-e287b.firebaseapp.com/
  
+ how to add pwa to home screen in ios
+ https://www.youtube.com/watch?v=5nlmv2i301U
+ 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
