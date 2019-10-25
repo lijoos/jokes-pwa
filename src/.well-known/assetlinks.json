@@ -1,0 +1,12 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.jokes.test",
+        "sha256_cert_fingerprints": [
+          "CE:5A:DE:15:3C:5B:65:2C:65:BB:7B:BC:15:62:FA:B5:B1:03:74:50:B2:E9:74:B0:BF:13:A7:F2:FB:9C:CE:05"
+        ]
+      }
+    }
+  ]
