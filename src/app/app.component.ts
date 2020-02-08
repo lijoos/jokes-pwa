@@ -7,21 +7,21 @@ import { DataService } from './data.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
-  title = 'jokes';
- // update = false;
-  jokes: any;
-  constructor(swUpdate: SwUpdate, private data: DataService) {
-    swUpdate.available.subscribe(event => {
-       // this.update = true;
-       swUpdate.activateUpdate().then(() => {
-       document.location.reload();
-       });
-    });
-  }
-  ngOnInit(): void {
-    this.data.getJokes().subscribe(res => {
-     this.jokes = res;
-    });
-  }
+export class AppComponent {
+//   title = 'jokes';
+//  // update = false;
+//   jokes: any;
+//   constructor(swUpdate: SwUpdate, private data: DataService) {
+//     swUpdate.available.subscribe(event => {
+//        // this.update = true;
+//        swUpdate.activateUpdate().then(() => {
+//        document.location.reload();
+//        });
+//     });
+//   }
+//   ngOnInit(): void {
+//     this.data.getJokes().subscribe(res => {
+//      this.jokes = res;
+//     });
+//   }
 }

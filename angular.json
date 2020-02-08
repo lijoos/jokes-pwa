@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "jokes"
+  "defaultProject": "jokes",
+  "cli": {
+    "analytics": "f5d0114b-3414-443e-a329-253dd29a7136"
+  }
 }
