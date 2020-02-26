@@ -9,6 +9,7 @@ import { DataService } from '../data.service';
 })
 export class PwaChildComponent implements OnInit {
   title = 'jokes';
+  displayedImage: any = '';
  // update = false;
   jokes: any;
   constructor(swUpdate: SwUpdate, private data: DataService) {
@@ -22,6 +23,7 @@ export class PwaChildComponent implements OnInit {
   ngOnInit(): void {
     this.data.getJokes().subscribe(res => {
      this.jokes = res;
+     this.displayedImage = 'https://source.unsplash.com/collection/190727/1600x900';
     });
   }
 }
